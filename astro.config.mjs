@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap"
 import tailwind from "@astrojs/tailwind"
 import { defineConfig } from "astro/config"
 import rehypeExternalLinks from "rehype-external-links"
+import vercelAnalytics from "@vercel/analytics/astro"
 
 // https://astro.build/config
 export default defineConfig({
