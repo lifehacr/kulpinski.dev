@@ -1,5 +1,4 @@
 ---
-import Analytics from '@vercel/analytics/astro';
 import { ClientRouter } from "astro:transitions"
 import { SEO, type SEOProps } from "astro-seo"
 import merge from "deepmerge"
@@ -61,25 +60,6 @@ const seo = merge(baseSeo, seoProps, { arrayMerge: (_, sourceArray) => sourceArr
       href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
       rel="stylesheet"
     />
-
----
-import { Analytics } from '@vercel/analytics/astro';
----
-
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Website</title>
-  </head>
-  <body>
-    <slot />  <!-- This renders child components -->
-    
-    <!-- Add Vercel Analytics -->
-    <Analytics />
-  </body>
-</html>
-
 
     <ClientRouter />
   </head>
