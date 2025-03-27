@@ -6,7 +6,6 @@ import sitemap from "@astrojs/sitemap"
 import tailwind from "@astrojs/tailwind"
 import { defineConfig } from "astro/config"
 import rehypeExternalLinks from "rehype-external-links"
-import vercelAnalytics from "@vercel/analytics/astro"
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,5 +23,5 @@ export default defineConfig({
     rehypePlugins: [[rehypeExternalLinks, { target: "_blank" }]],
   },
   site: process.env.SITE_URL || "https://awfys.com",
-  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact(), vercelAnalytics()],
+  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact()],
 })
