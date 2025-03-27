@@ -1,5 +1,4 @@
 ---
-import { PLAUSIBLE_DOMAIN, PLAUSIBLE_URL } from "astro:env/client"
 import { ClientRouter } from "astro:transitions"
 import { SEO, type SEOProps } from "astro-seo"
 import merge from "deepmerge"
@@ -61,10 +60,6 @@ const seo = merge(baseSeo, seoProps, { arrayMerge: (_, sourceArray) => sourceArr
       href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Plausible Analytics -->
-    <script is:inline defer data-domain={PLAUSIBLE_DOMAIN} src={`${PLAUSIBLE_URL}/js/script.js`}
-    ></script>
 
     <ClientRouter />
   </head>
