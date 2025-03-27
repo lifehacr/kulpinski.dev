@@ -21,10 +21,10 @@ export default defineConfig({
   },
   env: {
     schema: {
-      PLAUSIBLE_DOMAIN: envField.string({ context: "client", access: "public" }),
-      PLAUSIBLE_URL: envField.string({ context: "client", access: "public" }),
+      OPENPANEL_DOMAIN: envField.string({ context: "client", access: "public" }),
+      OPENPANEL_URL: envField.string({ context: "client", access: "public" }),
     },
   },
-  site: process.env.SITE_URL || "http://localhost:4321",
+  site: process.env.SITE_URL || "https://awfys.com",
   integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact()],
 })
