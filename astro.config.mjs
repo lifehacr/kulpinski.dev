@@ -15,6 +15,9 @@ export default defineConfig({
   },
   compressHTML: true,
   adapter: cloudflare(),
+      webAnalytics: {
+      enabled: true, // set to false when using @vercel/analytics@1.4.0
+    },
   markdown: {
     shikiConfig: { theme: "css-variables", wrap: true },
     rehypePlugins: [[rehypeExternalLinks, { target: "_blank" }]],
