@@ -23,5 +23,5 @@ export default defineConfig({
     rehypePlugins: [[rehypeExternalLinks, { target: "_blank" }]],
   },
   site: process.env.SITE_URL || "https://awfys.com",
-  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact()],
+  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact(), vercelAnalytics()],
 })
