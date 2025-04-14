@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-03-15
+date: 2024-03-15
 title: Growing OpenAlternative to 100k unique visitors in one week
 description: Discover how OpenAlternative hit 100k visitors in a week! A software engineer's journey in side-project growth, SEO, and digital marketing success.
 tags: ["side-projects", "marketing", "directory-websites"]
