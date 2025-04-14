@@ -11,9 +11,9 @@ type Props = SEOProps
 
 const { title, description, ...seoProps } = Astro.props
 
-const globalTitle = "Piotr Kulpinski's Blog"
+const globalTitle = "awfys blog"
 const globalDescription =
-  "I work as an independent software engineer and designer. I'm passionate about creating beautiful, accessible, and performant web. I write about things I learn and find interesting."
+  "I work as a Cloud engineer. I'm passionate about creating beautiful, accessible, and performant web. I write about things I learn and find interesting."
 const metaUrl = Astro.request.url
 const metaTitle = `${title ? `${title} - ` : ""}${globalTitle}`
 const metaDescription = description || globalDescription
@@ -31,7 +31,7 @@ const baseSeo = {
     },
   },
   twitter: {
-    creator: "@piotrkulpinski",
+    creator: "@kdtwitts",
     card: "summary_large_image",
   },
 } satisfies SEOProps
@@ -45,7 +45,7 @@ const seo = merge(baseSeo, seoProps, { arrayMerge: (_, sourceArray) => sourceArr
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="author" content="Piotr Kulpinski" />
+    <meta name="author" content="KD" />
     <meta name="generator" content={Astro.generator} />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
