@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-12-11
+date: 2024-12-11
 title: How to post a link with embed card on Bluesky with JavaScript
 description: Learn how to post a link with an OpenGraph card on Bluesky using JavaScript. This tutorial covers the basics of Bluesky's API and how to use it to create a custom link preview.
 tags: ["bluesky", "engineering", "atproto"]
@@ -289,5 +289,3 @@ export const sendBlueskyPost = async (text: string, url?: string) => {
 I hope you found this tutorial helpful and that you will consider using it in your own projects.
 
 Happy posting!
-
-
