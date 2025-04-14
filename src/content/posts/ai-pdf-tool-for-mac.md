@@ -1,6 +1,6 @@
 ---
 title: 'UPDF Enhances PDF Management on Mac, iOS, and iPad'
-visual: ../../assets/posts/UPDF10.webp
+visual: /src/content/posts/images/UPDF10.webp
 description: 'Unlocking the Power of AI, the AI-powered PDF editor built for Apple users.'
 date: 2025-04-14
 isFeatured: true
@@ -23,12 +23,12 @@ More than just a PDF editor, UPDF is crafted to simplify your life, offering pro
 ### Seamless PDF editing & annotation
 Whether you’re making small edits or adding detailed notes, UPDF offers smooth editing tools: edit and delete PDF text, images, and URLs. It’s packed with 100+ annotation stickers, responsive drawing tools, and a lifelike pencil for precision.
 
-![seamless editing](../../assets/posts/UPDF1.webp)
+![seamless editing](/src/content/posts/images/UPDF1.webp)
 
 ### Effortless PDF Page Management and doc conversion
 The visually intuitive layout facilitates seamless dragging and cropping. You can effortlessly add, delete, rotate, replace, extract, split, crop, and rearrange PDF pages!
 
-![organise pdf pages](../../assets/posts/UPDF2.webp)
+![organise pdf pages](/src/content/posts/images/UPDF2.webp)
 
 ### High-quality PDF document conversion
 PDF to Word, Excel, PPT, etc. UPDF ensures that the page content is not lost or omitted, with a very accurate restoration of fonts, sizes, and colours. The OCR feature can also convert scanned PDFs into editable text in any language.
@@ -37,7 +37,7 @@ PDF to Word, Excel, PPT, etc. UPDF ensures that the page content is not lost or 
 ### Powerful AI: Convert PDF to Mind Map
 Combining ChatGPT 4.0 with UPDF AI not only offers powerful features for summarizing, translating, and explaining PDFs, but one of UPDF’s standout features is its ability to convert PDFs into mind maps, allowing you to visualize content and better organize ideas. This feature is perfect for students tackling dense reading material, professionals organizing research, or creatives brainstorming ideas. It’s the first PDF tool with this functionality, helping you turn information overload into structured insights.
 
-![mind map](../../assets/posts/UPDF4.webp)
+![mind map](/src/content/posts/images/UPDF4.webp)
 
 ### Form Filling and Signing
 
@@ -47,7 +47,7 @@ In addition to the features mentioned above, UPDF also offers a variety of excel
 
 ### UPDF vs the competition
 
-![competition](../../assets/posts/UPDF5.webp)
+![competition](/src/content/posts/images/UPDF5.webp)
 
 UPDF offers all the premium features of its competitors but at a quarter of the price. This powerful tool ensures that users can edit, annotate, convert, and manage their PDF documents with ease. With its user-friendly interface and robust functionality, UPDF caters to both individual and business needs, making it an ideal choice for anyone looking to optimize their document workflows without breaking the bank.
 
@@ -67,24 +67,24 @@ UPDF offers all the premium features of its competitors but at a quarter of the 
 
 **Integrated with ChatGPT**: UPDF is one of the first PDF editors to offer ChatGPT integration, making AI-powered document editing and interaction effortless.
 
-![chat with AI](../../assets/posts/UPDF6.webp)
+![chat with AI](/src/content/posts/images/UPDF6.webp)
 
 **Chat with image**: Another groundbreaking feature of UPDF is its ability to “chat” with images within your PDFs. This function opens new possibilities for engaging with visual content in ways that traditional PDF editors simply can’t match.
 Frequent updates keep UPDF fresh and continually improving, giving you access to the latest features and performance enhancements.
 
 ### Additional features UPDF brings to the table
 
-![add features](../../assets/posts/UPDF7.webp)
+![add features](/src/content/posts/images/UPDF7.webp)
 
 UPDF is equipped with a wide array of features designed for every kind of user, from casual PDF readers to professionals. Here are some of the latest features and updates:
 
 **Compare PDFs**: This new feature lets Apple users compare documents, easily spotting differences between versions.
 
-![compare pdf](../../assets/posts/UPDF7.webp)
+![compare pdf](/src/content/posts/images/UPDF7.webp)
 
 **Customizable bookmarks**: Personalize your PDF experience by customizing the bookmarks’ appearance, including text colour, bold, and italics.
 
-![compare](../../assets/posts/UPDF8.webp)
+![compare](/src/content/posts/images/UPDF8.webp)
 
 **UPDF cloud management**: Manage all your shared files through UPDF’s cloud for a seamless experience.
 
