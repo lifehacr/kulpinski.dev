@@ -1,7 +1,7 @@
 ---
 type: post
 title: Create Stunning Ghibli-Style AI Art with Grok and ChatGPT
-excerpt: Learn how to create mesmerizing Ghibli-style AI art using Grok and ChatGPT with simple steps and creative prompts." Let me know if you'd like further tweaks or additions!
+description: Learn how to create mesmerizing Ghibli-style AI art using Grok and ChatGPT with simple steps and creative prompts." Let me know if you'd like further tweaks or additions!
 date: 2025-04-01
 visual: ../../assets/posts/3.webp
 isFeatured: true

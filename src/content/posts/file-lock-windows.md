@@ -4,7 +4,7 @@ type: post
 tags:
   - Tech
   - Windows
-excerpt: Keep your PC secured with Password to maintain Privacy.
+description: Keep your PC secured with Password to maintain Privacy.
 date: 2025-03-10
 image: https://images.unsplash.com/photo-1516572980581-c9bd8bff75b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 isFeatured: true

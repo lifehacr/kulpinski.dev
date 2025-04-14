@@ -1,7 +1,7 @@
 ---
 type: post
 title: Nano Editor Shortcut
-excerpt: Nano is a popular and versatile terminal-based text editor in Linux. It is a perfect fit for beginners and professionals who are looking for a complete tool to modify their text.
+description: Nano is a popular and versatile terminal-based text editor in Linux. It is a perfect fit for beginners and professionals who are looking for a complete tool to modify their text.
 date: 2024-10-08
 visuals: ../../assets/posts/nano-editor.webp
 isFeatured: true

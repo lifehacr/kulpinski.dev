@@ -1,11 +1,11 @@
 ---
 title: Getting a CDN link for every file on Github
-excerpt: Sometimes, you want to load a file into your web project via a CDN. But
+description: Sometimes, you want to load a file into your web project via a CDN. But
   what do you do, if the docs don’t give you that CDN link?
 type: note
 tags:
   - Code
-date: 2024-03-09T00:00:00.000Z
+date: 2024-04-01
 ---
 
 Sometimes, you want to load a file into your web project via a CDN. But what do you do, if the docs don’t give you that CDN link?

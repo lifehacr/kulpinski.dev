@@ -1,9 +1,8 @@
 ---
-type: post
 title: 'UPDF Enhances PDF Management on Mac, iOS, and iPad'
 visual: ../../assets/posts/UPDF10.webp
-excerpt: 'Unlocking the Power of AI, the AI-powered PDF editor built for Apple users.'
-date: 2025-03-11
+description: 'Unlocking the Power of AI, the AI-powered PDF editor built for Apple users.'
+date: 2025-04-14
 isFeatured: true
 tags:
   - macOS

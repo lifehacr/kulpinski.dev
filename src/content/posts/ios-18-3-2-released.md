@@ -2,7 +2,7 @@
 type: post
 title: iOS 18.3.2 Released What's New and Improved
 visual: ../../assets/posts/iOS-18.3.2.jpg
-excerpt: Apple has launched the iOS and iPadOS 18.3.2 update, which is expected to roll out to compatible iPhones and iPads starting Wednesday.
+description: Apple has launched the iOS and iPadOS 18.3.2 update, which is expected to roll out to compatible iPhones and iPads starting Wednesday.
 date: 2025-03-13
 isFeatured: true
 tags:

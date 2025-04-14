@@ -4,7 +4,7 @@ type: post
 tags:
   - Cloud
   - Guide
-excerpt: This document provides basic and advanced concepts of Cloud Computing
+description: This document provides basic and advanced concepts of Cloud Computing
 date: 2025-03-10
 visual: ../../assets/posts/cloud.png
 isFeatured: true
