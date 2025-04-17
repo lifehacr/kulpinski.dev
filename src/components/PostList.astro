@@ -16,7 +16,7 @@ const { posts, ...props } = Astro.props
     <ul>
       {posts.map(({ data, slug }) => (
         <Item>
-          <a href={`/post/${slug}`} title={data.title} {...props}>
+          <a href={`/posts/${slug}`} title={data.title} {...props}>
             {data.title}
           </a>
 
