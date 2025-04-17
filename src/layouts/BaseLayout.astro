@@ -13,7 +13,7 @@ type Props = SEOProps
 const { title, description, ...seoProps } = Astro.props
 
 const globalTitle = "Awfys Blog"
-const metaUrl = Astro.request.url
+const globalDescription =
 const metaTitle = `${title ? `${title} - ` : ""}${globalTitle}`
 const metaDescription = description || globalDescription
 
