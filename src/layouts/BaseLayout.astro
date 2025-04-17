@@ -13,8 +13,6 @@ type Props = SEOProps
 const { title, description, ...seoProps } = Astro.props
 
 const globalTitle = "Awfys Blog"
-const globalDescription =
-  "I work as an independent software engineer and designer. I'm passionate about creating beautiful, accessible, and performant web. I write about things I learn and find interesting."
 const metaUrl = Astro.request.url
 const metaTitle = `${title ? `${title} - ` : ""}${globalTitle}`
 const metaDescription = description || globalDescription
@@ -32,7 +30,7 @@ const baseSeo = {
     },
   },
   twitter: {
-    creator: "@piotrkulpinski",
+    creator: "@kd",
     card: "summary_large_image",
   },
 } satisfies SEOProps
