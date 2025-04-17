@@ -12,7 +12,7 @@ type Props = SEOProps
 
 const { title, description, ...seoProps } = Astro.props
 
-const globalTitle = "Piotr Kulpinski's Blog"
+const globalTitle = "Awfys Blog"
 const globalDescription =
   "I work as an independent software engineer and designer. I'm passionate about creating beautiful, accessible, and performant web. I write about things I learn and find interesting."
 const metaUrl = Astro.request.url
@@ -61,13 +61,6 @@ const seo = merge(baseSeo, seoProps, { arrayMerge: (_, sourceArray) => sourceArr
       href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Plausible Analytics -->
-    <script is:inline defer data-domain={PLAUSIBLE_DOMAIN} src={`${PLAUSIBLE_URL}/js/script.js`}
-    ></script>
-
-    <ClientRouter />
-  </head>
 
   <body
     class="mx-auto flex min-h-screen max-w-[46rem] flex-col gap-12 bg-background text-foreground p-6 md:py-8 lg:py-10"

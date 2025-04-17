@@ -21,8 +21,6 @@ export default defineConfig({
   },
   env: {
     schema: {
-      PLAUSIBLE_DOMAIN: envField.string({ context: "client", access: "public" }),
-      PLAUSIBLE_URL: envField.string({ context: "client", access: "public" }),
     },
   },
   site: process.env.SITE_URL || "http://localhost:4321",
