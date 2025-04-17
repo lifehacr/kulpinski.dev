@@ -10,16 +10,14 @@ import "~/styles.css"
 
 type Props = SEOProps
 
-const { title, description, ...seoProps } = Astro.props
+const { title, ...seoProps } = Astro.props
 
 const globalTitle = "Awfys Blog"
-const globalDescription =
+const metaUrl = Astro.request.url
 const metaTitle = `${title ? `${title} - ` : ""}${globalTitle}`
-const metaDescription = description || globalDescription
 
 const baseSeo = {
   title: metaTitle,
-  description: metaDescription,
   canonical: metaUrl,
   openGraph: {
     basic: {
@@ -59,7 +57,7 @@ const seo = merge(baseSeo, seoProps, { arrayMerge: (_, sourceArray) => sourceArr
       href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
       rel="stylesheet"
     />
-
+  </head>
   <body
     class="mx-auto flex min-h-screen max-w-[46rem] flex-col gap-12 bg-background text-foreground p-6 md:py-8 lg:py-10"
   >
