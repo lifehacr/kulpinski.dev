@@ -6,7 +6,7 @@ const postsCollection = defineCollection({
     z.object({
       isDraft: z.boolean().optional(),
       title: z.string(),
-      date: z.date(),
+      pubDate: z.date(),
       description: z.string().optional(),
       author: z.string().optional(),
       image: image().optional(),

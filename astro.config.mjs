@@ -4,7 +4,7 @@ import mdx from "@astrojs/mdx"
 import preact from "@astrojs/preact"
 import sitemap from "@astrojs/sitemap"
 import tailwind from "@astrojs/tailwind"
-import { defineConfig } from "astro/config"
+import { defineConfig, envField } from "astro/config"
 import rehypeExternalLinks from "rehype-external-links"
 
 // https://astro.build/config
@@ -15,13 +15,16 @@ export default defineConfig({
   },
   compressHTML: true,
   adapter: cloudflare(),
-      webAnalytics: {
-      enabled: true, // set to false when using @vercel/analytics@1.4.0
-    },
   markdown: {
     shikiConfig: { theme: "css-variables", wrap: true },
     rehypePlugins: [[rehypeExternalLinks, { target: "_blank" }]],
   },
-  site: process.env.SITE_URL || "https://awfys.com",
+  env: {
+    schema: {
+      PLAUSIBLE_DOMAIN: envField.string({ context: "client", access: "public" }),
+      PLAUSIBLE_URL: envField.string({ context: "client", access: "public" }),
+    },
+  },
+  site: process.env.SITE_URL || "http://localhost:4321",
   integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact()],
 })

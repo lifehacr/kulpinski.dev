@@ -1,5 +1,5 @@
 ---
-date: 2024-03-10
+pubDate: 2024-03-10
 title: Starting simple
 description: The power of starting simple in blogging, a journey from perfectionism to creativity. Join me in the journey to embracing simplicity and sparking creativity.
 tags: []

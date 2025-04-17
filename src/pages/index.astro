@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets"
 import { getCollection } from "astro:content"
+import ProfilePicture from "~/assets/piotrkulpinski.webp"
 import PostList from "~/components/PostList.astro"
 import ProjectList from "~/components/ProjectList.astro"
 import Intro from "~/components/global/Intro.astro"
@@ -22,12 +24,90 @@ const projects = allProjects.sort(
 ---
 
 <BaseLayout>
+  <Intro id="about">
+    <h2 slot="title">About</h2>
+
+    <Prose class="flow-root">
+      <p>
+        <Image
+          src={ProfilePicture}
+          alt="Piotr Kulpinski"
+          width={256}
+          height={256}
+          class="not-prose size-24 rounded-full float-start mr-8 [shape-outside:circle(50%)]"
+        />
+
+        I am an independent software engineer and designer. I'm passionate about creating beautiful,
+        accessible, and performant websites. I write about things I learn and find interesting.
+      </p>
+
+      <ul>
+        <li>Born in the late 80s in the beautiful city of Kraków</li>
+        <li>Programmer-turned-solopreneur</li>
+        <li>15+ years of experience</li>
+        <li>Interested in software, SEO, open source & AI</li>
+        <li>Passionate about minimalism & simplicity</li>
+        <li>Built and shipped many useful web projects</li>
+      </ul>
+    </Prose>
+  </Intro>
+
+  <Intro id="projects">
+    <h2 slot="title">Projects</h2>
+
+    <Prose>
+      <p>I am also tinkering away and building web projects.</p>
+
+      <ProjectList projects={projects} />
+
+      <p>
+        If you are interested in a coffee chat or discussing potential projects, feel free to reach
+        out.
+      </p>
+    </Prose>
+  </Intro>
 
   <Intro id="posts">
     <h2 slot="title">Latest Posts</h2>
 
     <Prose>
-      <PostList posts={posts} />
+      <PostList posts={posts} class="flex-1 truncate" />
+    </Prose>
+  </Intro>
+
+  <Intro id="contact">
+    <h2 slot="title">Get in touch</h2>
+
+    <Prose>
+      <ul>
+        <Item>
+          <a href="mailto:piotr@kulpinski.pl" target="_blank" rel="nofollow noreferrer">
+            <span class="text-muted">piotr(at)</span>kulpinski.pl
+          </a>
+        </Item>
+
+        <Item>
+          <a href="https://x.com/piotrkulpinski" target="_blank" rel="nofollow noreferrer">
+            <span class="text-muted">x.com/</span>piotrkulpinski
+          </a>
+        </Item>
+
+        <Item>
+          <a
+            href="https://bsky.app/profile/kulpinski.dev"
+            target="_blank"
+            rel="nofollow noreferrer"
+          >
+            <span class="text-muted">bsky.app/profile/</span>kulpinski.dev
+          </a>
+        </Item>
+
+        <Item>
+          <a href="https://github.com/piotrkulpinski" target="_blank" rel="nofollow noreferrer">
+            <span class="text-muted">github.com/</span>piotrkulpinski
+          </a>
+        </Item>
+      </ul>
     </Prose>
   </Intro>
 </BaseLayout>

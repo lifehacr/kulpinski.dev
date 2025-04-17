@@ -1,5 +1,5 @@
 ---
-date: 2024-03-28
+pubDate: 2024-03-28
 title: How to build dynamic breadcrumbs in Remix.run
 description: Learn to build dynamic breadcrumbs in Remix, enhancing site navigation and SEO. This guide covers useMatches/handle capabilities, and schema metadata.
 tags: ["engineering", "remix"]
