@@ -1,3 +1,10 @@
+---
+pubDate: 2025-04-19
+title: Here’s How to Use ChatGPT Like a Pro for Free
+description: Learn how students can access ChatGPT premium features for free and boost productivity, learning, and research—without paying a cent.
+tags: ["chatgpt", "openai", "student", "discount"]
+image: ./images/ChatGPT.jpg
+---
 
 You don’t need a [**subscription**](https://openai.com/chatgpt/pricing/) — or even an account — to start using [OpenAI](https://openai.com/)’s popular AI chatbot, **ChatGPT**. However, creating an account unlocks additional features, such as access to the latest [ChatGPT-4o](https://openai.com/index/introducing-o3-and-o4-mini/) model with image generation capabilities. For even more advanced tools, a paid subscription is the way to go. **ChatGPT Plus**, priced at $20/month, provides access to powerful features like enhanced reasoning models (such as the GPT-4.5 preview) and deep research capabilities.
 
