@@ -23,6 +23,6 @@ export default defineConfig({
     schema: {
     },
   },
-  site: process.env.SITE_URL || "http://localhost:4321",
+  site: process.env.SITE_URL || "https://awfys.com",
   integrations: [tailwind({ applyBaseStyles: false }), sitemap(), mdx(), preact()],
 })
