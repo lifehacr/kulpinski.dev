@@ -14,7 +14,7 @@ If you’re a student, I’ve got some great news for you. OpenAI CEO _Sam Altma
 
 ChatGPT Plus is free for college students in the US and Canada through May!” Sam Altman wrote [on X](https://xcancel.com/sama/status/1907862982765457603). Signing up for the deal is very easy. Just head over to [this page on the OpenAI site](https://help.openai.com/en/articles/10968654-student-discounts-for-chatgpt-plus-us-canada) and follow the instructions to verify that you’re eligible. OpenAI uses [SheerID](https://shop.sheerid.com/studentdeals/) for verification, so students will likely already know if they’re eligible since it’s the same service used by other companies. Once you’ve determined that you’re eligible, you’ll just need to sign up for an account using your school email address.
 
-![gptaccess]({{site.baseurl}}/src/content/posts/landing-page.jpg)
+![gptaccess](./images/landing-page.jpg)
 
 Why is the company offering this deal? OpenAI may be reacting to a brilliant move from Anthropic earlier this week. The OpenAI rival announced a huge AI plan for education. Claude for Education includes a Learning Mode for Caude that gives students access to a tutor-like AI persona that will not provide answers outright.
 
