@@ -5,19 +5,40 @@ description: Learn how students can access ChatGPT premium features for free and
 tags: ["chatgpt", "openai", "student", "discount"]
 image: ./images/ChatGPT.jpg
 ---
-
-You don’t need a [**subscription**](https://openai.com/chatgpt/pricing/) — or even an account — to start using [OpenAI](https://openai.com/)’s popular AI chatbot, **ChatGPT**. However, creating an account unlocks additional features, such as access to the latest [ChatGPT-4o](https://openai.com/index/introducing-o3-and-o4-mini/) model with image generation capabilities. For even more advanced tools, a paid subscription is the way to go. **ChatGPT Plus**, priced at $20/month, provides access to powerful features like enhanced reasoning models (such as the GPT-4.5 preview) and deep research capabilities.
-
-This pricing is on par with [Gemini](https://gemini.google.com/app?hl=en-US) Advanced from [**Google**](https://www.google.com/), which also includes added benefits like extra cloud storage alongside its AI tools.
-
-If you’re a student, I’ve got some great news for you. OpenAI CEO _Sam Altman_ announced that _US_ and _Canadian_ students can use ChatGPT Plus for free through the end of May. That’s a great deal, as students will save about $40/month for premium AI access. But why is OpenAI offering this deal?
-
 ChatGPT Plus is free for college students in the US and Canada through May!” Sam Altman wrote [on X](https://xcancel.com/sama/status/1907862982765457603). Signing up for the deal is very easy. Just head over to [this page on the OpenAI site](https://help.openai.com/en/articles/10968654-student-discounts-for-chatgpt-plus-us-canada) and follow the instructions to verify that you’re eligible. OpenAI uses [SheerID](https://shop.sheerid.com/studentdeals/) for verification, so students will likely already know if they’re eligible since it’s the same service used by other companies. Once you’ve determined that you’re eligible, you’ll just need to sign up for an account using your school email address.
 
 ![gptaccess](./images/landing-page.jpg)
 
-Why is the company offering this deal? OpenAI may be reacting to a brilliant move from Anthropic earlier this week. The OpenAI rival announced a huge AI plan for education. Claude for Education includes a Learning Mode for Caude that gives students access to a tutor-like AI persona that will not provide answers outright.
+# 🎓 How to Access ChatGPT Plus for Free as a Student
 
-AI can certainly come in handy for schoolwork, as long as you don’t use the AI only to do your homework and cheat your way through projects or exams.
+Great news for students in the U.S. and Canada! [OpenAI](https://www.openai.com) is offering **ChatGPT Plus**—normally $20/month—**free for two months**.  
+This promotion runs from **March 31 to May 31, 2025** ([OpenAI Help](https://help.openai.com/en/articles/10968654-student-discounts-for-chatgpt-plus-us-canada?utm_source=chatgpt.com)).
 
-Students deal aside, ChatGPT has been quite popular with users in the past week thanks to that new 4o image generation tool that went viral. The company registered millions of new users but also experienced issues with ChatGPT.
+## ✅ Eligibility Criteria
+
+- Must be a **full-time or part-time student** at a degree-granting institution in the U.S. or Canada.
+- Verification is done through **SheerID**, which may require:
+  - School email address
+  - Student ID
+  - Enrollment documents
+
+## 🚀 How to Claim the Offer
+
+1. Visit the [ChatGPT Student Offer Page](https://chatgpt.com/students).
+2. Click on **"Verify with SheerID"**.
+3. Complete the verification process.
+4. Upon approval, you'll receive **two months of ChatGPT Plus for free**.
+
+If you're already a ChatGPT Plus subscriber, the two free months will be added to your existing subscription ([ChatGPT](https://chatgpt.com/students?utm_source=chatgpt.com)).
+
+## 💡 Why This Offer?
+
+OpenAI aims to support students during exam season by providing access to advanced AI tools.  
+This initiative also positions OpenAI competitively against other AI services offering educational benefits ([Dev.to](https://dev.to/kd/how-to-get-premium-chatgpt-access-as-a-student-for-free-jkb?utm_source=chatgpt.com)).
+
+## 📌 Important Notes
+
+- The offer is **valid until May 31, 2025**.
+- After the free period, standard subscription rates apply unless canceled.
+- Ensure to verify your student status before the deadline to take advantage of this offer.
+
